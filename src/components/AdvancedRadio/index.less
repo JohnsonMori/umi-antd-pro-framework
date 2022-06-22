@@ -1,0 +1,28 @@
+@import '~@/variable.less';
+
+.advancedRadio {
+  margin-bottom: 24px;
+  height: 24px;
+  line-height: 24px;
+
+  .label {
+    display: inline-block;
+    width: 70px;
+  }
+
+  .option {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0 12px;
+    height: 100%;
+    border-radius: 2px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .active {
+    color: @blue;
+    font-weight: bold;
+    background-color: rgba(38, 129, 255, .1);
+  }
+}
